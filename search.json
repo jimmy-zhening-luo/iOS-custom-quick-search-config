@@ -2,13 +2,10 @@
     "querytag": "%q",
     "engines": [
         {
-            "shortcut": "",
-            "url": "",
-            "app": "",
-            "ignoreUrl": ""
-        },
-        {
-            
+            "shortcut": "or",
+            "url": "https://www.amazon.com/gp/your-account/order-history/ref=ppx_yo_mob_b_search?search=%q",
+            "app": "webview",
+            "ignoreUrl": false
         }
     ]
 }
