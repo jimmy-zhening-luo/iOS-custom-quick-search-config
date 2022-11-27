@@ -34,6 +34,10 @@
       "url": "things:///search?query=%q"
     },
     {
+      "shortcut": "p",
+      "url": "plecoapi://x-callback-url/s?q=%q"
+    },
+    {
       "shortcut": "we",
       "url": "https://google.com/search?q=weather+in+%q"
     },
