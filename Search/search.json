@@ -22,6 +22,11 @@
       "ignoreUrl": true
     },
     {
+        "shortcut": "pd",
+        "app": "pleco",
+        "ignoreUrl": true
+    },
+    {
       "shortcut": "w",
       "url": "https://en.m.wikipedia.org/w/index.php?search=%q"
     },
