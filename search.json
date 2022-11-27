@@ -4,8 +4,42 @@
         {
             "shortcut": "or",
             "url": "https://www.amazon.com/gp/your-account/order-history/ref=ppx_yo_mob_b_search?search=%q",
-            "app": "webview",
-            "ignoreUrl": false
+            "app": "webview"
+        },
+        {
+            "shortcut": "a",
+            "url": "https://www.amazon.com/s?k=%q",
+            "app": "webview"
+        },
+        {
+            "shortcut": "m",
+            "app": "mail",
+            "ignoreUrl": true
+        },
+        {
+            "shortcut": "f",
+            "app": "files",
+            "ignoreUrl": true
+        },
+        {
+            "shortcut": "w",
+            "url": "https://en.m.wikipedia.org/w/index.php?search=%q"
+        },
+        {
+            "shortcut": "wk",
+            "url": "https://en.m.wiktionary.org/w/index.php?search=%q"
+        },
+        {
+            "shortcut": "t",
+            "url": "things:///search?query=%q"
+        },
+        {
+            "shortcut": "we",
+            "url": "https://google.com/search?q=weather+in+%q"
+        },
+        {
+            "shortcut": "c",
+            "url": "https://www.wolframalpha.com/input?i=%q"
         }
     ]
 }
