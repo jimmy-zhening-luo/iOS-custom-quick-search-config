@@ -61,6 +61,14 @@
     {
       "shortcut": "c",
       "url": "https://www.wolframalpha.com/input?i=%q"
+    },
+    {
+        "shortcut": "b",
+        "url": "https://www.nytimes.com/wirecutter/search/?s=%q"
+    },
+    {
+        "shortcut": "r",
+        "url": "https://google.com/search?q=site%3Areddit.com+%q"
     }
   ]
 }
