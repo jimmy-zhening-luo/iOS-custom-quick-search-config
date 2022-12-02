@@ -2,14 +2,19 @@
   "querytag": "%q",
   "engines": [
     {
-      "shortcut": "or",
+      "shortcut": "a",
       "url": "https://www.amazon.com/gp/your-account/order-history/ref=ppx_yo_mob_b_search?search=%q",
       "app": "webview"
     },
     {
-      "shortcut": "a",
+      "shortcut": "as",
       "url": "https://www.amazon.com/s?k=%q",
       "app": "webview"
+    },
+    {
+        "shortcut": "aa",
+        "app": "amazon",
+        "ignoreUrl": true
     },
     {
       "shortcut": "m",
@@ -65,6 +70,10 @@
     {
         "shortcut": "b",
         "url": "https://www.nytimes.com/wirecutter/search/?s=%q"
+    },
+    {
+        "shortcut": "be",
+        "url": "https://google.com/search?q=best+%q"
     },
     {
         "shortcut": "r",
