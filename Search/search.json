@@ -69,7 +69,7 @@
     },
     {
         "shortcut": "b",
-        "url": "https://www.nytimes.com/wirecutter/search/?s=%q"
+        "url": "https://google.com/search?q=site%3Anytimes.com+wirecutter+%q"
     },
     {
         "shortcut": "be",
