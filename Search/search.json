@@ -7,7 +7,7 @@
       "app": "webview"
     },
     {
-      "shortcut": "as",
+      "shortcut": "aw",
       "url": "https://www.amazon.com/s?k=%q",
       "app": "webview"
     },
@@ -27,7 +27,7 @@
       "ignoreUrl": true
     },
     {
-        "shortcut": "pd",
+        "shortcut": "pr",
         "app": "pleco",
         "ignoreUrl": true
     },
@@ -36,7 +36,7 @@
       "url": "https://en.m.wikipedia.org/w/index.php?search=%q"
     },
     {
-      "shortcut": "wk",
+      "shortcut": "ww",
       "url": "https://en.m.wiktionary.org/w/index.php?search=%q"
     },
     {
@@ -78,6 +78,10 @@
     {
         "shortcut": "r",
         "url": "https://google.com/search?q=site%3Areddit.com+%q"
+    },
+    {
+        "shortcut": "d",
+        "url": "comgooglemaps://?q=%q"
     }
   ]
 }

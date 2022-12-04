@@ -1,0 +1,16 @@
+{
+    "languages": {
+        "e": {
+            "fqn": "English (US)"
+        },
+        "c": {
+            "fqn": "Chinese (Mandarin - China mainland)"
+        },
+        "f": {
+            "fqn": "French (France)"
+        },
+        "v": {
+            "fqn": "Vietnamese"
+        }
+    }
+}
