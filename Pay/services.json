@@ -1,0 +1,32 @@
+{
+    "services": {
+        "barber": {
+            "name": "Minnie",
+            "price": {
+                "amount": 90,
+                "currency": "USD"
+            },
+            "last_raise_date": "2022-06-07",
+            "payment_message": "Jimmy haircut",
+            "apps": {
+                "venmo": {
+                    "handle": "@minniestyles"
+                }
+            }
+        },
+        "cleaner": {
+            "name": "Patricia",
+            "price": {
+                "amount": 230,
+                "currency": "USD"
+            },
+            "last_raise_date": "2022-08-08",
+            "payment_message": "1119 E Howell cleaning",
+            "apps": {
+                "venmo": {
+                    "handle": "@Patricia-Squena"
+                }
+            }
+        }
+    }
+}
