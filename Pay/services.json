@@ -1,6 +1,6 @@
 {
     "services": {
-        "barber": {
+        "Barber": {
             "name": "Minnie",
             "price": {
                 "amount": 90,
@@ -14,7 +14,7 @@
                 }
             }
         },
-        "cleaner": {
+        "Cleaner": {
             "name": "Patricia",
             "price": {
                 "amount": 230,
