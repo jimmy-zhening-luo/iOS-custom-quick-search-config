@@ -102,6 +102,10 @@
     {
         "shortcut": "tw",
         "url": "https://12ft.io/proxy?q=%s"
+    },
+    {
+        "shortcut": "po",
+        "url": "https://getpocket.com/saves/search?query=%s"
     }
   ]
 }
