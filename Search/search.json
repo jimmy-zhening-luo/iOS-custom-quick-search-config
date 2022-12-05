@@ -1,14 +1,14 @@
 {
-  "querytag": "%q",
+  "querytag": "%s",
   "engines": [
     {
       "shortcut": "a",
-      "url": "https://www.amazon.com/gp/your-account/order-history/ref=ppx_yo_mob_b_search?search=%q",
+      "url": "https://www.amazon.com/gp/your-account/order-history/ref=ppx_yo_mob_b_search?search=%s",
       "app": "webview"
     },
     {
       "shortcut": "aw",
-      "url": "https://www.amazon.com/s?k=%q",
+      "url": "https://www.amazon.com/s?k=%s",
       "app": "webview"
     },
     {
@@ -33,55 +33,75 @@
     },
     {
       "shortcut": "w",
-      "url": "https://en.m.wikipedia.org/w/index.php?search=%q"
+      "url": "https://en.m.wikipedia.org/w/index.php?search=%s"
     },
     {
       "shortcut": "ww",
-      "url": "https://en.m.wiktionary.org/w/index.php?search=%q"
+      "url": "https://en.m.wiktionary.org/w/index.php?search=%s"
     },
     {
       "shortcut": "t",
-      "url": "things:///search?query=%q"
+      "url": "things:///search?query=%s"
     },
     {
       "shortcut": "p",
-      "url": "plecoapi://x-callback-url/s?q=%q"
+      "url": "plecoapi://x-callback-url/s?q=%s"
     },
     {
       "shortcut": "we",
-      "url": "https://google.com/search?q=weather+in+%q"
+      "url": "https://google.com/search?q=weather+in+%s"
     },
     {
       "shortcut": "s",
-      "url": "https://google.com/search?q=time+in+%q"
+      "url": "https://google.com/search?q=time+in+%s"
     },
     {
       "shortcut": "g",
-      "url": "https://google.com/search?q=%q"
+      "url": "https://google.com/search?q=%s"
     },
     {
       "shortcut": "u",
-      "url": "https://google.com/search?q=unit+converter+%q"
+      "url": "https://google.com/search?q=unit+converter+%s"
     },
     {
       "shortcut": "c",
-      "url": "https://www.wolframalpha.com/input?i=%q"
+      "url": "https://www.wolframalpha.com/input?i=%s"
     },
     {
         "shortcut": "b",
-        "url": "https://google.com/search?q=site%3Anytimes.com+wirecutter+%q"
+        "url": "https://google.com/search?q=site%3Anytimes.com+wirecutter+%s"
     },
     {
         "shortcut": "be",
-        "url": "https://google.com/search?q=best+%q"
+        "url": "https://google.com/search?q=best+%s"
     },
     {
         "shortcut": "r",
-        "url": "https://google.com/search?q=site%3Areddit.com+%q"
+        "url": "https://google.com/search?q=site%3Areddit.com+%s"
     },
     {
         "shortcut": "d",
-        "url": "comgooglemaps://?q=%q"
+        "url": "comgooglemaps://?q=%s"
+    },
+    {
+        "shortcut": "npm",
+        "url": "https://www.npmjs.com/search?q=%s"
+    },
+    {
+        "shortcut": "git",
+        "url": "https://github.com/search?q=%s"
+    },
+    {
+        "shortcut": "y",
+        "url": "https://www.youtube.com/results?search_query=%s"
+    },
+    {
+        "shortcut": "ud",
+        "url": "http://www.urbandictionary.com/define.php?term=%s"
+    },
+    {
+        "shortcut": "tw",
+        "url": "https://12ft.io/proxy?q=%s"
     }
   ]
 }
