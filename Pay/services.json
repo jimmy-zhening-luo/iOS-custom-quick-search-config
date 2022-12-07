@@ -1,11 +1,9 @@
 {
     "services": {
-        "Barber": {
+        "barber": {
+            "title": "💇‍♂️ Barber",
             "name": "Minnie",
-            "price": {
-                "amount": 90,
-                "currency": "USD"
-            },
+            "price": 90,
             "last_raise_date": "2022-06-07",
             "payment_message": "Jimmy haircut",
             "apps": {
@@ -14,12 +12,10 @@
                 }
             }
         },
-        "Cleaner": {
+        "cleaner": {
+            "title": "🧺 Cleaner",
             "name": "Patricia",
-            "price": {
-                "amount": 230,
-                "currency": "USD"
-            },
+            "price": 230,
             "last_raise_date": "2022-08-08",
             "payment_message": "1119 E Howell cleaning",
             "apps": {
