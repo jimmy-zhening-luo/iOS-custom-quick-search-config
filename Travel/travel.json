@@ -1,0 +1,43 @@
+{
+    "app": {
+        "legs": {
+            "depart": 0,
+            "return": 1
+        },
+        "defaultInputs": {
+            "daysOffsetBetweenLegs": 3
+        }
+    },
+    "user": {
+        "places": {
+            "home": "sea",
+            "cities": {
+                "sea": {
+                    "fqn": "Seattle",
+                    "prettyname": "Seattle",
+                    "airports": {
+                        "default": "sea",
+                        "area": {
+                            "sea": 0,
+                            "pae": 1
+                        }
+                    }
+                },
+                "sna": {
+                    "fqn": "Orange County, CA",
+                    "prettyname": "Irvine",
+                    "airports": {
+                        "default": "sna",
+                        "area": {
+                            "sna": 0,
+                            "lax": 1,
+                            "lgb": 1,
+                            "ont": 2,
+                            "san": 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
