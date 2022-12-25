@@ -12,6 +12,10 @@
       "app": "webview"
     },
     {
+        "shortcut": "j",
+        "url": "https://developer.mozilla.org/en-US/search?q=%s"
+    },
+    {
         "shortcut": "aa",
         "app": "amazon",
         "ignoreUrl": true
