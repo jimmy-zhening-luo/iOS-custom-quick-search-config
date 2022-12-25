@@ -1,9 +1,9 @@
 {
     "app": {
-        "legs": {
-            "depart": 0,
-            "return": 1
-        },
+        "legs": [
+            "depart",
+            "return"
+        ],
         "defaultInputs": {
             "daysOffsetBetweenLegs": 3
         }
@@ -17,10 +17,10 @@
                     "prettyname": "Seattle",
                     "airports": {
                         "default": "sea",
-                        "area": {
-                            "sea": 0,
-                            "pae": 1
-                        }
+                        "area": [
+                            "sea",
+                            "pae"
+                        ]
                     }
                 },
                 "sna": {
@@ -28,13 +28,13 @@
                     "prettyname": "Irvine",
                     "airports": {
                         "default": "sna",
-                        "area": {
-                            "sna": 0,
-                            "lax": 1,
-                            "lgb": 1,
-                            "ont": 2,
-                            "san": 3
-                        }
+                        "area": [
+                            "sna",
+                            "lax",
+                            "lgb",
+                            "ont",
+                            "san"
+                        ]
                     }
                 }
             }
