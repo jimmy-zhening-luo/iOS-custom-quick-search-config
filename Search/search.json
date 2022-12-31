@@ -4,8 +4,8 @@
     "reservedKeys": [
       {
         "keys": [ "help", "h" ],
-        "app": "this",
-        "url": "cuts://help"
+        "app": "this.help",
+        "ignoreUrl": true
       }
     ]
   },
