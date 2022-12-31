@@ -1,115 +1,127 @@
 {
-  "querytag": "%s",
-  "engines": [
-    {
-      "shortcut": "a",
-      "url": "https://www.amazon.com/gp/your-account/order-history/ref=ppx_yo_mob_b_search?search=%s",
-      "app": "webview"
-    },
-    {
-      "shortcut": "aw",
-      "url": "https://www.amazon.com/s?k=%s",
-      "app": "webview"
-    },
-    {
-        "shortcut": "j",
+  "app": {
+    "queryTag": "%s",
+    "reservedKeys": [
+      {
+        "keys": [ "help", "h" ],
+        "app": "this",
+        "url": "cuts://help"
+      }
+    ]
+  },
+  "user": {
+    "queryTag": "%s",
+    "engineKeys": [
+      {
+        "keys": "a",
+        "url": "https://www.amazon.com/gp/your-account/order-history/ref=ppx_yo_mob_b_search?search=%s",
+        "app": "webview"
+      },
+      {
+        "keys": "aw",
+        "url": "https://www.amazon.com/s?k=%s",
+        "app": "webview"
+      },
+      {
+        "keys": "j",
         "url": "https://developer.mozilla.org/en-US/search?q=%s"
-    },
-    {
-        "shortcut": "aa",
+      },
+      {
+        "keys": "aa",
         "app": "amazon",
         "ignoreUrl": true
-    },
-    {
-      "shortcut": "m",
-      "app": "mail",
-      "ignoreUrl": true
-    },
-    {
-      "shortcut": "f",
-      "app": "files",
-      "ignoreUrl": true
-    },
-    {
-        "shortcut": "pr",
+      },
+      {
+        "keys": "m",
+        "app": "mail",
+        "ignoreUrl": true
+      },
+      {
+        "keys": "f",
+        "app": "files",
+        "ignoreUrl": true
+      },
+      {
+        "keys": "pr",
         "app": "pleco",
         "ignoreUrl": true
-    },
-    {
-      "shortcut": "w",
-      "url": "https://en.m.wikipedia.org/w/index.php?search=%s"
-    },
-    {
-      "shortcut": "ww",
-      "url": "https://en.m.wiktionary.org/w/index.php?search=%s"
-    },
-    {
-      "shortcut": "t",
-      "url": "things:///search?query=%s"
-    },
-    {
-      "shortcut": "p",
-      "url": "plecoapi://x-callback-url/s?q=%s"
-    },
-    {
-      "shortcut": "we",
-      "url": "https://google.com/search?q=weather+in+%s"
-    },
-    {
-      "shortcut": "s",
-      "url": "https://google.com/search?q=time+in+%s"
-    },
-    {
-      "shortcut": "g",
-      "url": "https://google.com/search?q=%s"
-    },
-    {
-      "shortcut": "u",
-      "url": "https://google.com/search?q=unit+converter+%s"
-    },
-    {
-      "shortcut": "c",
-      "url": "https://www.wolframalpha.com/input?i=%s"
-    },
-    {
-        "shortcut": "b",
+      },
+      {
+        "keys": "w",
+        "url": "https://en.m.wikipedia.org/w/index.php?search=%s"
+      },
+      {
+        "keys": "ww",
+        "url": "https://en.m.wiktionary.org/w/index.php?search=%s"
+      },
+      {
+        "keys": "t",
+        "url": "things:///search?query=%s"
+      },
+      {
+        "keys": "p",
+        "url": "plecoapi://x-callback-url/s?q=%s"
+      },
+      {
+        "keys": "we",
+        "url": "https://google.com/search?q=weather+in+%s"
+      },
+      {
+        "keys": "s",
+        "url": "https://google.com/search?q=time+in+%s"
+      },
+      {
+        "keys": "g",
+        "url": "https://google.com/search?q=%s"
+      },
+      {
+        "keys": "u",
+        "url": "https://google.com/search?q=unit+converter+%s"
+      },
+      {
+        "keys": "c",
+        "url": "https://www.wolframalpha.com/input?i=%s"
+      },
+      {
+        "keys": "b",
         "url": "https://google.com/search?q=site%3Anytimes.com+wirecutter+%s"
-    },
-    {
-        "shortcut": "be",
+      },
+      {
+        "keys": "be",
         "url": "https://google.com/search?q=best+%s"
-    },
-    {
-        "shortcut": "r",
+      },
+      {
+        "keys": "r",
         "url": "https://google.com/search?q=site%3Areddit.com+%s"
-    },
-    {
-        "shortcut": "d",
+      },
+      {
+        "keys": "d",
         "url": "comgooglemaps://?q=%s"
-    },
-    {
-        "shortcut": "npm",
+      },
+      {
+        "keys": "npm",
         "url": "https://www.npmjs.com/search?q=%s"
-    },
-    {
-        "shortcut": "git",
+      },
+      {
+        "keys": "git",
         "url": "https://github.com/search?q=%s"
-    },
-    {
-        "shortcut": "y",
+      },
+      {
+        "keys": "y",
         "url": "https://www.youtube.com/results?search_query=%s"
-    },
-    {
-        "shortcut": "ud",
+      },
+      {
+        "keys": "ud",
         "url": "http://www.urbandictionary.com/define.php?term=%s"
-    },
-    {
-        "shortcut": "tw",
+      },
+      {
+        "keys": "tw",
         "url": "https://12ft.io/proxy?q=%s"
-    },
-    {
-        "shortcut": "po",
+      },
+      {
+        "keys": "po",
         "url": "https://getpocket.com/saves/search?query=%s"
-    }
-  ]
+      }
+    ]
+  }
 }
