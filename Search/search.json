@@ -115,7 +115,7 @@
         "url": "http://www.urbandictionary.com/define.php?term=%s"
       },
       {
-        "keys": "tw",
+        "keys": ["tw", "tf"],
         "url": "https://12ft.io/proxy?q=%s"
       },
       {
