@@ -8,7 +8,7 @@
           "url": "https://www.ontrac.com/trackingresults.asp?tracking_number=%s",
           "number": {
             "regexes": [
-              "/\b([CcDd])([0-9]{14})\b/gm"
+              
             ],
             "checksum": {
               "operations": [
@@ -25,7 +25,7 @@
           "url": "https://www.dhl.com/us-en/home/tracking/tracking-express.html?submit=1&tracking-id=%s",
           "number": {
             "regexes": [
-              ""
+              
             ]
           }
         }
@@ -36,7 +36,7 @@
           "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=%s",
           "number": {
             "regexes": [
-              ""
+              
             ]
           }
         }
@@ -47,7 +47,7 @@
           "url": "https://fedex.com/fedextrack?trknbr=%s",
           "number": {
             "regexes": [
-              ""
+              
             ]
           }
         }
@@ -58,7 +58,7 @@
           "url": "https://ups.com/%s",
           "number": {
             "regexes": [
-              ""
+              
             ]
           }
         }
