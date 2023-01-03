@@ -9,6 +9,23 @@
           "number": {
             "regexes": [
               "/\b([CcDd])([0-9]{14})\b/gm"
+            ],
+            "checksum": {
+              "operations": [
+                ""
+              ],
+              "condition": ""
+            }
+          }
+        }
+      },
+      {
+        "name": "DHL",
+        "trackingSchema": {
+          "url": "https://www.dhl.com/us-en/home/tracking/tracking-express.html?submit=1&tracking-id=%s",
+          "number": {
+            "regexes": [
+              ""
             ]
           }
         }
