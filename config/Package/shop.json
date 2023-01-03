@@ -1,0 +1,51 @@
+{
+  "app": {
+    "querytag": "%s",
+    "carriers": [
+      {
+        "name": "OnTrac",
+        "trackingSchema": {
+          "url": "https://www.ontrac.com/trackingresults.asp?tracking_number=%s",
+          "number": {
+            "regexes": [
+              "/\b([CcDd])([0-9]{14})\b/gm"
+            ]
+          }
+        }
+      },
+      {
+        "name": "USPS",
+        "trackingSchema": {
+          "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=%s",
+          "number": {
+            "regexes": [
+              ""
+            ]
+          }
+        }
+      },
+      {
+        "name": "FedEx",
+        "trackingSchema": {
+          "url": "https://fedex.com/fedextrack?trknbr=%s",
+          "number": {
+            "regexes": [
+              ""
+            ]
+          }
+        }
+      },
+      {
+        "name": "UPS",
+        "trackingSchema": {
+          "url": "https://ups.com/%s",
+          "number": {
+            "regexes": [
+              ""
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
