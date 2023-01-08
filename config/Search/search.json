@@ -101,7 +101,7 @@
         "urls": "https://github.com/search?q=%s"
       },
       {
-        "keys": ["y", "yt", "you", "youtube"],
+        "keys": ["v", "y", "yt", "you", "youtube"],
         "urls": "https://www.youtube.com/results?search_query=%s"
       },
       {
