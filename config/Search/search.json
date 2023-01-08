@@ -4,8 +4,7 @@
     "reservedKeys": [
       {
         "keys": [ "help", "h" ],
-        "app": "this.help",
-        "ignoreUrl": true
+        "app": "this.help"
       }
     ]
   },
@@ -13,114 +12,109 @@
     "queryTag": "%s",
     "engineKeys": [
       {
-        "keys": "a",
-        "url": "https://www.amazon.com/gp/your-account/order-history/ref=ppx_yo_mob_b_search?search=%s",
-        "app": "webview"
+        "keys": ["a", "o", "order", "orders"],
+        "urls": "https://www.amazon.com/gp/your-account/order-history/ref=ppx_yo_mob_b_search?search=%s",
+        "webview": true
       },
       {
-        "keys": "aw",
-        "url": "https://www.amazon.com/s?k=%s",
-        "app": "webview"
+        "keys": ["aa", "amazon", "buy"],
+        "urls": "https://www.amazon.com/s?k=%s",
+        "webview": true
       },
       {
-        "keys": "j",
-        "url": "https://developer.mozilla.org/en-US/search?q=%s"
+        "keys": ["j", "js", "javascript", "java", "script", "scripts"],
+        "urls": "https://developer.mozilla.org/en-US/search?q=%s"
       },
       {
-        "keys": "aa",
-        "app": "amazon",
-        "ignoreUrl": true
+        "keys": ["ty", "ts", "type", "typescript"],
+        "urls": "https://google.com/search?q=site%3Atypescriptlang.org+%s"
       },
       {
-        "keys": "m",
-        "app": "mail",
-        "ignoreUrl": true
+        "keys": ["m", "mail"],
+        "app": "mail"
       },
       {
-        "keys": "f",
-        "app": "files",
-        "ignoreUrl": true
+        "keys": ["f", "file", "files"],
+        "app": "files"
       },
       {
-        "keys": "pr",
-        "app": "pleco",
-        "ignoreUrl": true
+        "keys": ["sc", "sh", "short", "cut", "cuts", "shortcut", "shortcuts"],
+        "app": "shortcuts"
       },
       {
         "keys": "w",
-        "url": "https://en.m.wikipedia.org/w/index.php?search=%s"
+        "urls": "https://en.m.wikipedia.org/w/index.php?search=%s"
       },
       {
         "keys": "ww",
-        "url": "https://en.m.wiktionary.org/w/index.php?search=%s"
+        "urls": "https://en.m.wiktionary.org/w/index.php?search=%s"
       },
       {
         "keys": "t",
-        "url": "things:///search?query=%s"
+        "urls": "things:///search?query=%s"
       },
       {
-        "keys": "p",
-        "url": "plecoapi://x-callback-url/s?q=%s"
+        "keys": ["p", "chinese", "lang", "pleco"],
+        "urls": "plecoapi://x-callback-url/s?q=%s"
       },
       {
         "keys": "we",
-        "url": "https://google.com/search?q=weather+in+%s"
+        "urls": "https://google.com/search?q=weather+in+%s"
       },
       {
         "keys": "s",
-        "url": "https://google.com/search?q=time+in+%s"
+        "urls": "https://google.com/search?q=time+in+%s"
       },
       {
         "keys": "g",
-        "url": "https://google.com/search?q=%s"
+        "urls": "https://google.com/search?q=%s"
       },
       {
         "keys": "u",
-        "url": "https://google.com/search?q=unit+converter+%s"
+        "urls": "https://google.com/search?q=unit+converter+%s"
       },
       {
         "keys": "c",
-        "url": "https://www.wolframalpha.com/input?i=%s"
+        "urls": "https://www.wolframalpha.com/input?i=%s"
       },
       {
-        "keys": "b",
-        "url": "https://google.com/search?q=site%3Anytimes.com+wirecutter+%s"
+        "keys": ["b", "be", "best", "wc", "wirecutter", "wire", "cut", "cutter", "cuts", "cutters", "wires", "wirecutters", "ny", "nyt"],
+        "urls": [
+          "https://google.com/search?q=site%3Anytimes.com+wirecutter+%s",
+          "https://google.com/search?q=best+%s"
+        ]
       },
       {
-        "keys": "be",
-        "url": "https://google.com/search?q=best+%s"
+        "keys": ["r", "reddit", "red"],
+        "urls": "https://google.com/search?q=site%3Areddit.com+%s"
       },
       {
-        "keys": "r",
-        "url": "https://google.com/search?q=site%3Areddit.com+%s"
+        "keys": ["d", "directions", "maps", "map", "direction", "go", "place", "places", "local", "loc", "near", "take", "locations", "location", "locate", "locale", "locales", "located", "locates", "takes", "locals", "goes", "drive", "walk", "bus"],
+        "urls": "comgooglemaps://?q=%s"
       },
       {
-        "keys": "d",
-        "url": "comgooglemaps://?q=%s"
+        "keys": ["npm", "node", "nodejs", "npmjs", "package", "packages"],
+        "urls": "https://www.npmjs.com/search?q=%s"
       },
       {
-        "keys": "npm",
-        "url": "https://www.npmjs.com/search?q=%s"
+        "keys": ["git", "github", "gh"],
+        "urls": "https://github.com/search?q=%s"
       },
       {
-        "keys": "git",
-        "url": "https://github.com/search?q=%s"
+        "keys": ["y", "yt", "you", "youtube"],
+        "urls": "https://www.youtube.com/results?search_query=%s"
       },
       {
-        "keys": "y",
-        "url": "https://www.youtube.com/results?search_query=%s"
+        "keys": ["ud", "sl", "urban", "slang"],
+        "urls": "http://www.urbandictionary.com/define.php?term=%s"
       },
       {
-        "keys": "ud",
-        "url": "http://www.urbandictionary.com/define.php?term=%s"
+        "keys": ["un", "tw", "tf", "12ft", "12", "12f", "twelve", "paywall", "unblock"],
+        "urls": "https://12ft.io/proxy?q=%s"
       },
       {
-        "keys": ["tw", "tf"],
-        "url": "https://12ft.io/proxy?q=%s"
-      },
-      {
-        "keys": "po",
-        "url": "https://getpocket.com/saves/search?query=%s"
+        "keys": ["po", "pocket"],
+        "urls": "https://getpocket.com/saves/search?query=%s"
       }
     ]
   }
