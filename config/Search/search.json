@@ -12,25 +12,25 @@
     "queryTag": "%s",
     "engineKeys": [
       {
-        "keys": ["a", "o", "order", "orders"],
+        "keys": ["a", "o", "ao", "order", "orders", "past", "pasts"],
         "urls": "https://www.amazon.com/gp/your-account/order-history/ref=ppx_yo_mob_b_search?search=%s",
         "webview": true
       },
       {
-        "keys": ["aa", "amazon", "buy"],
+        "keys": ["aa", "as", "am", "ama", "amaz", "amazo", "amazon", "amazons", "buy", "buys", "buynew", "buying"],
         "urls": "https://www.amazon.com/s?k=%s",
         "webview": true
       },
       {
-        "keys": ["j", "js", "javascript", "java", "script", "scripts"],
+        "keys": ["j", "js", "javascript", "java", "script", "scripts", "javas", "javascripts"],
         "urls": "https://developer.mozilla.org/en-US/search?q=%s"
       },
       {
-        "keys": ["ty", "ts", "type", "typescript"],
+        "keys": ["jj", "ty", "ts", "type", "typescript", "types"],
         "urls": "https://google.com/search?q=site%3Atypescriptlang.org+%s"
       },
       {
-        "keys": ["m", "mail"],
+        "keys": ["m", "mail", "em", "email", "mails", "emails"],
         "app": "mail"
       },
       {
@@ -42,15 +42,15 @@
         "app": "shortcuts"
       },
       {
-        "keys": "w",
+        "keys": ["w", "wi", "wik", "wiki", "wp", "wikipedia", "wikipedias"],
         "urls": "https://en.m.wikipedia.org/w/index.php?search=%s"
       },
       {
-        "keys": "ww",
+        "keys": ["ww", "wikt", "wk", "wiktionary"],
         "urls": "https://en.m.wiktionary.org/w/index.php?search=%s"
       },
       {
-        "keys": "t",
+        "keys": ["t", "things", "thing", "task", "tasks"],
         "urls": "things:///search?query=%s"
       },
       {
@@ -58,23 +58,23 @@
         "urls": "plecoapi://x-callback-url/s?q=%s"
       },
       {
-        "keys": "we",
+        "keys": ["we", "weather", "forecast", "heat", "rain", "rains", "forecasts", "sky", "skies", "hot", "hots", "cold", "colds", "cool", "cools", "temp", "temps"],
         "urls": "https://google.com/search?q=weather+in+%s"
       },
       {
-        "keys": "s",
+        "keys": ["time", "clock", "z", "zone", "tz", "timezone", "zones", "timezones", "times", "clocks"],
         "urls": "https://google.com/search?q=time+in+%s"
       },
       {
-        "keys": "g",
+        "keys": ["g", "web", "google", "search", "go"],
         "urls": "https://google.com/search?q=%s"
       },
       {
-        "keys": "u",
+        "keys": ["u", "unit", "un", "units", "conv", "convert", "converts"],
         "urls": "https://google.com/search?q=unit+converter+%s"
       },
       {
-        "keys": "c",
+        "keys": ["c", "calc", "math", "wolf", "wo", "wol", "alpha", "wa", "alp", "al", "alph", "maths", "calcs", "calculate", "calculates", "calculator", "calculators", "wolframalpha", "alphas", "wolves", "wolfram"],
         "urls": "https://www.wolframalpha.com/input?i=%s"
       },
       {
