@@ -46,7 +46,7 @@
         "urls": "https://en.m.wikipedia.org/w/index.php?search=%s"
       },
       {
-        "keys": ["ww", "wikt", "wk", "wiktionary"],
+        "keys": ["ww", "wikt", "wk", "wiktionary", "word", "words", "et", "ety", "etym", "etymology", "etymologies"],
         "urls": "https://en.m.wiktionary.org/w/index.php?search=%s"
       },
       {
@@ -93,7 +93,7 @@
         "urls": "comgooglemaps://?q=%s"
       },
       {
-        "keys": ["npm", "node", "nodejs", "npmjs", "package", "packages"],
+        "keys": ["npm", "no", "node", "nodejs", "npmjs", "package", "packages"],
         "urls": "https://www.npmjs.com/search?q=%s"
       },
       {
